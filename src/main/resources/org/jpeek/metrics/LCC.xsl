@@ -27,7 +27,7 @@ SOFTWARE.
   <xsl:template match="skeleton">
     <metric>
       <xsl:apply-templates select="@*"/>
-      <title>TCC</title>
+      <title>LCC</title>
       <description>
         <xsl:text>LCC(C) = (NDC(C) + NIC(C)) / NP(C), where C is the class, NP(C) is a
           maximal possible number of direct or indirect connections - N * (N - 1) / 2,
